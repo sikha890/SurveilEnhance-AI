@@ -1,0 +1,22 @@
+
+# HR-LR Dataset Generation Configuration
+
+dataset:
+  scale_factor: 4
+  supported_extensions:
+    - .png
+    - .jpg
+    - .jpeg
+
+degradation:
+  blur_kernel: 5
+  blur_sigma: 1.0
+  noise_std: 10.0
+  jpeg_quality: 40
+
+reproducibility:
+  random_seed: 42
+
+output:
+  hr_directory: data/generated/HR
+  lr_directory: data/generated/LR

@@ -1,0 +1,23 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'DM Sans', Inter, system-ui, sans-serif;
+  color: #e8eef8;
+  background: #0a101b;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --bg: #0a101b;
+  --panel: #111b2b;
+  --panel2: #142034;
+  --border: #24334a;
+  --muted: #91a0b7;
+  --blue: #559cff;
+  --green: #35d0a4;
+}
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input, select { font: inherit; }
+button { cursor: pointer; }
+button:focus-visible, a:focus-visible, select:focus-visible { outline: 2px solid #62a7ff; outline-offset: 3px; }
+::selection { background: #397dcc66; }

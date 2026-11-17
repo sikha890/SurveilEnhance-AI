@@ -1,0 +1,61 @@
+
+# ==========================================
+# PYTHON
+# ==========================================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# ==========================================
+# NODE.JS / FRONTEND
+# ==========================================
+node_modules/
+app/node_modules/
+dist/
+app/dist/
+
+# ==========================================
+# DATASETS AND PRIVATE IMAGES
+# ==========================================
+/data/source/
+/data/generated/
+/data/raw/
+/data/processed/
+/data/train/
+/data/validation/
+/data/test/
+/data/external/
+/data/DIV2K/
+
+# ==========================================
+# MODEL CHECKPOINTS AND OUTPUTS
+# ==========================================
+/checkpoints/
+/outputs/
+*.pth
+*.pt
+*.ckpt
+
+# ==========================================
+# ENVIRONMENT VARIABLES / SECRETS
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# EDITORS AND OPERATING SYSTEM
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# LOGS
+# ==========================================
+*.log

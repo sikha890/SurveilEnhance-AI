@@ -1,0 +1,28 @@
+
+# DIV2K HR-LR Dataset Generation Configuration
+
+dataset:
+  scale_factor: 4
+  supported_extensions:
+    - .png
+    - .jpg
+    - .jpeg
+
+source:
+  train_directory: data/external/DIV2K/train/HR
+  validation_directory: data/external/DIV2K/validation/HR
+
+output:
+  train_hr_directory: data/DIV2K/train/HR
+  train_lr_directory: data/DIV2K/train/LR
+  validation_hr_directory: data/DIV2K/validation/HR
+  validation_lr_directory: data/DIV2K/validation/LR
+
+degradation:
+  blur_kernel: 5
+  blur_sigma: 1.0
+  noise_std: 10.0
+  jpeg_quality: 40
+
+reproducibility:
+  random_seed: 42
